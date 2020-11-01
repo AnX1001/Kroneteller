@@ -10,7 +10,7 @@ document.querySelector('.start').onclick = () => {
     setTimeout(function() {
 
         setInterval(tellKroner, 1000);
-        setInterval(visSedler, 5000 );
+        setInterval(visSedler, 10000 );
     }, startForsinkelse); // lag en variable som heter startForsinkelse for å synce med antall kroner første time, 30 min etc. 
  
 }
