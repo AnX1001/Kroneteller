@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bangers', cursive;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 2%;
+   
+}
+
+button {
+    height: 55px; 
+    width: 105px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightblue;
+    margin: 5px; 
+    padding: 5px;
+    font-family: 'Bangers', cursive;
+    font-size: 1rem;
+    box-shadow: 5px 8px rgba(0, 0, 0, 0.7); 
+
+    outline: none;
+   
+}
+
+button:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+    font-size: 5vw;
+    color: black;
+
+}
+
+.anbefalinger {
+    font-size: 2vw;
+    background-image: linear-gradient(45deg,black, lightblue);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.tjent {
+    font-size: 2vw;
+    text-align: center;
+}
+
+h2 {
+
+    font-size: 12vw;
+    margin-left: 2%;
+    letter-spacing: 10px;
+    background-image: linear-gradient(45deg,black, lightblue);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+  
+ 
+}
+
+
+.bilde {
+    height: 60px;
+    width: 90px;
+    background-image: url('./banknotes-159085_640.png');
+    background-size: contain;
+    border: none;
+    animation: fadeIn 1s;
+    margin: 5px;
+    display: inline-block;
+
+}
+
+input {
+    height: 45px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 8px;
+    padding: 5px;
+    width: 200px;
+    font-family: 'Bangers', cursive;
+    box-shadow: 5px 8px rgba(0, 0, 0, 0.7); 
+}
+
+.supernett {
+    display: flex;
+    /* border: 4px solid orange; */
+    max-width: 100vw;
+    align-items: center;
+    
+    
+
+}
+
+.rutenett {
+    height: fit-content;
+    max-width: 70vw;
+    background-size: cover;
+    animation: fadeIn 5s;
+    margin-top: 5px;
+    /* border: 5px solid black; */
+    border-radius: 8px;
+    padding: 5px;
+ 
+  
+    
+
+}
+
+.knappenett {
+    /* border: 5px solid red; */
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    
+}
+
+.belopnett {
+   
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* random bg bilder */
+
